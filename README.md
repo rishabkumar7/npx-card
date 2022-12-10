@@ -13,7 +13,7 @@ npx rishabkumar
 
 ### <strong>🚀 DEMO</strong>
 
-![demo.gif](https://cdn.hashnode.com/res/hashnode/image/upload/v1610360119791/rLM8MkTgG.gif)
+![demo.gif](https://rishabincloud.s3.amazonaws.com/npx-card.gif)
 
 <br />
 
