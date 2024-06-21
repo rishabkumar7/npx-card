@@ -1,6 +1,6 @@
 {
     "name": "rishabkumar",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "author": "Rishab Kumar <rishabkumar7@gmail.com>",
     "description": "A personal card for Rishab Kumar",
     "main": "card.js",
