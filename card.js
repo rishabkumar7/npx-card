@@ -47,7 +47,7 @@ const questions = [
                 },
             },
             //// Download Resume
-            {
+            /*{
                 name: `Download my ${chalk.magentaBright.bold("Resume")}?`,
                 value: () => {
                     // cliSpinners.dots;
@@ -68,7 +68,7 @@ const questions = [
                         loader.stop();
                     });
                 },
-            },
+            },*/
             //// Quit
             {
                 name: "Just quit.",
@@ -81,7 +81,7 @@ const questions = [
 ];
 
 const data = {
-    name: chalk.bold.green(`                  ${user_name}`),
+    name: chalk.bold.green(`${user_name}`),
     // work: `${chalk.white("Software Engineer at")} ${chalk.hex("#2b82b2").bold("ClearTax")}`,
     work: `${chalk.white(`${job_title}`)}`,
     twitter: chalk.gray("https://twitter.com/") + chalk.cyan(`${twitter_username}`),
@@ -111,10 +111,10 @@ const me = boxen(
         ``,
         `${data.labelCard}  ${data.npx}`,
         ``,
-        `${chalk.italic("I am currently looking for new opportunities,")}`,
-        `${chalk.italic("my inbox is always open. Whether you have a")}`,
-        `${chalk.italic("question or just want to say hi, I will try ")}`,
-        `${chalk.italic("my best to get back to you!")}`,
+        //`${chalk.italic("I am currently looking for new opportunities,")}`,
+        //`${chalk.italic("my inbox is always open. Whether you have a")}`,
+        //`${chalk.italic("question or just want to say hi, I will try ")}`,
+        //`${chalk.italic("my best to get back to you!")}`,
     ].join("\n"),
     {
         margin: 1,
